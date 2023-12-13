@@ -1,0 +1,10 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+  package="com.ubx.flutter_topwise">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <application
+        android:name="com.topwise.emv.MyApplication">
+        <activity android:name="com.topwise.emv.PinpadActivity" />
+    </application>
+
+</manifest>
